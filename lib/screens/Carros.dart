@@ -102,26 +102,22 @@ class _Carros extends State<Carros> {
       _clienteId1 = retorno[0]["cliente"]["id"];
       _clienteNome1 = retorno[0]["cliente"]["nome"];
       _clienteCPF1 = retorno[0]["cliente"]["cpf"];
-      _cliente1 =
-          "\nID: $_clienteId1 \nNome: $_clienteNome1 \nCPF: $_clienteCPF1";
+      _cliente1 = "$_clienteId1 \nNome: $_clienteNome1 \nCPF: $_clienteCPF1";
 
       _clienteId2 = retorno[1]["cliente"]["id"];
       _clienteNome2 = retorno[1]["cliente"]["nome"];
       _clienteCPF2 = retorno[1]["cliente"]["cpf"];
-      _cliente2 =
-          "\nID: $_clienteId2 \nNome: $_clienteNome2 \nCPF: $_clienteCPF2";
+      _cliente2 = "$_clienteId2 \nNome: $_clienteNome2 \nCPF: $_clienteCPF2";
 
       _clienteId3 = retorno[2]["cliente"]["id"];
       _clienteNome3 = retorno[2]["cliente"]["nome"];
       _clienteCPF3 = retorno[2]["cliente"]["cpf"];
-      _cliente3 =
-          "\nID: $_clienteId3 \nNome: $_clienteNome3 \nCPF: $_clienteCPF3";
+      _cliente3 = "$_clienteId3 \nNome: $_clienteNome3 \nCPF: $_clienteCPF3";
 
       _clienteId4 = retorno[3]["cliente"]["id"];
       _clienteNome4 = retorno[3]["cliente"]["nome"];
       _clienteCPF4 = retorno[3]["cliente"]["cpf"];
-      _cliente4 =
-          "\nID: $_clienteId4 \nNome: $_clienteNome4 \nCPF: $_clienteCPF4";
+      _cliente4 = "$_clienteId4 \nNome: $_clienteNome4 \nCPF: $_clienteCPF4";
     });
   }
 
